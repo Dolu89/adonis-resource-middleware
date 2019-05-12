@@ -1,6 +1,6 @@
 {
-  "name": "adonis-resource-middleware",
-  "version": "1.1.0",
+  "name": "@dolu/adonis-resource-middleware",
+  "version": "1.2.0",
   "description": "Restful resource middleware for AdonisJs",
   "main": "index.js",
   "private": false,
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wxs77577/adonis-resource-middleware.git"
+    "url": "git+https://github.com/dolu89/adonis-resource-middleware.git"
   },
   "keywords": [
     "AdonisJs",
@@ -17,12 +17,12 @@
     "restful",
     "resource"
   ],
-  "author": "wu-xuesong@qq.com",
+  "author": "Dolu <dolu89@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wxs77577/adonis-resource-middleware/issues"
+    "url": "https://github.com/dolu89/adonis-resource-middleware/issues"
   },
-  "homepage": "https://github.com/wxs77577/adonis-resource-middleware#readme",
+  "homepage": "https://github.com/dolu89/adonis-resource-middleware#readme",
   "dependencies": {
     "inflection": "^1.12.0",
     "strip-ansi": "^5.2.0"
