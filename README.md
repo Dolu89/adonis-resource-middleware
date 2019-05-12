@@ -53,6 +53,3 @@ It throws exceptions by default, also you can handle it, please check [The Offic
 
 1. `E_RESOURCE_MODEL_CLASS_NOT_FOUND`
   If the model class does not exists in `App/Models/`.
-
-1. `E_RESOURCE_MODEL_NOT_FOUND` 
-  If the record does not exists in the database.
