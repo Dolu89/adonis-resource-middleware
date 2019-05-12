@@ -11,7 +11,12 @@
     "type": "git",
     "url": "git+https://github.com/wxs77577/adonis-resource-middleware.git"
   },
-  "keywords": ["AdonisJs", "middleware", "restful", "resource"],
+  "keywords": [
+    "AdonisJs",
+    "middleware",
+    "restful",
+    "resource"
+  ],
   "author": "wu-xuesong@qq.com",
   "license": "MIT",
   "bugs": {
@@ -19,7 +24,8 @@
   },
   "homepage": "https://github.com/wxs77577/adonis-resource-middleware#readme",
   "dependencies": {
-    "inflection": "^1.12.0"
+    "inflection": "^1.12.0",
+    "strip-ansi": "^5.2.0"
   },
   "devDependencies": {
     "japa": "^1.0.6"
