@@ -26,14 +26,7 @@ class ResourceMiddleware {
       }
     }
     if (ctx.Model && ctx.params.id) {
-      try {
-        ctx.model = await ctx.Model.findOrFail(ctx.params.id)
-      } catch (e) {
-        if (throwError === 'true') {
-          throw new Exception('E_RESOURCE_MODEL_NOT_FOUND', 'Model dose not exists.')
-        }
-        console.error('Invalid model')
-      }
+      ctx.model = await ctx.Model.findOrFail(ctx.params.id)
     }
     await next()
   }
