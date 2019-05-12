@@ -4,7 +4,7 @@ Restful resource middleware for AdonisJs
 ## Usage
 1. Install 
     ```bash
-      npm i -S adonis-resource-middleware
+      npm i -S @dolu/adonis-resource-middleware
     ```
 1. Edit `/start/kernel.js`
     ```javascript
