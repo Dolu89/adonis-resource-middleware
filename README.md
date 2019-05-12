@@ -11,7 +11,7 @@ Restful resource middleware for AdonisJs
     const namedMiddleware = {
       /* ... */
       /* add a named middleware */
-      resource: 'adonis-resource-middleware',
+      resource: '@dolu/adonis-resource-middleware',
     }
     ```
 
