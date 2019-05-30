@@ -28,6 +28,6 @@
     "strip-ansi": "^5.2.0"
   },
   "devDependencies": {
-    "japa": "^1.0.6"
+    "japa": "^2.0.10"
   }
 }
